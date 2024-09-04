@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   const [tasks, setTasks] = useState([
-    { id: "task_1", title: "Learn JS", status: 0 },
+    { id: "task_1", title: "Learn JS edit", status: 0 },
     { id: "task_2", title: "Code a Todo List", status: 0 },
   ]);
   const [showIncomplete, setShowIncomplete] = useState(true);
